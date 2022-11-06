@@ -1,7 +1,8 @@
 #include <iostream>
 
-int main()
+int main(int argc, char** argv)
 {
-	std::cout << "OpenGL" << std::endl;
+	std::cout << "OpenGL" << argv[0] << std::endl;
 	return 0;
 }
+
